@@ -20,9 +20,9 @@ version: '3.8'
 services:
   # FastAPI 生产服务
   app:
-    image: fastapi-prod:latest
+    image: fastapi2-prod:latest
     # 设置生产容器名称
-    container_name: sanqianfa   # 生产环境容器名称
+    container_name: fastapi2   # 生产环境容器名称
     # 使用当前目录的 Dockerfile 构建生产容器
     build: 
       context: .
